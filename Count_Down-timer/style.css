@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .countdown-container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+  }
+  
+  #countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .time-box {
+    background-color: #3a3f47;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .time-box span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .time-box p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
